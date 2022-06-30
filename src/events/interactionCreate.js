@@ -86,7 +86,7 @@ module.exports = async (client, interaction, guild) => {
 
                 await interaction.channel.setName(`closed-${user.username}`)
                 map.set(interaction.channel.id)
-                setTimeout(async() => {
+                setTimeout(async () => {
                     try {
                         await map.delete(interaction.channel.id)
                     } catch (err) {
@@ -149,7 +149,7 @@ module.exports = async (client, interaction, guild) => {
             try {
                 await interaction.channel.delete()
             } catch (err) {
-                
+
             }
         }
 

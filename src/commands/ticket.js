@@ -21,7 +21,7 @@ module.exports = {
 
             .setTitle('Sistema de Ticket')
             .setDescription('Para abrir um **TICKET** clique no **BOTÃO**')
-            .setFooter({ text: 'BY ❤️ Swervin Studios', iconURL: 'https://media.discordapp.net/attachments/938563616330903563/950476588049383464/fall.gif' })
+            .setFooter({ text: 'BY ❤️ Swervin Studios', iconURL: 'https://cdn.discordapp.com/attachments/984149666537029753/991801176754503742/XiolaEdits_Gif_Leitao_V2.gif' })
             .setColor('#3CB371')
 
         const btn = new Discord.MessageButton()
